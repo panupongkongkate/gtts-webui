@@ -20,7 +20,7 @@ iface = gr.Interface(
     title="gTTS WebUI",
     description="กรอกข้อความและเลือกภาษาที่ต้องการ จากนั้นคลิกเพื่อแปลงเป็นเสียง",
     live=False,
-    allow_flagging="never"  # ปิดการใช้งานปุ่ม Flag
+    # allow_flagging="never"  # ปิดการใช้งานปุ่ม Flag
 )
 
 # เรียกใช้แอป Gradio
